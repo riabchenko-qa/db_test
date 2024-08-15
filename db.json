@@ -1,8 +1,8 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1", "userId": 2 },
+    { "id": 2, "title": "Post 2", "userId": 2 },
+    { "id": 3, "title": "Post 3", "userId": 1 }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
@@ -11,6 +11,12 @@
     { "id": 4, "body": "some comment", "postId": 2 },
     { "id": 5, "body": "some comment", "postId": 2 },
     { "id": 6, "body": "some comment", "postId": 3 }
+  ],
+  "users": [
+    { "id": 1, "username": "user01", "email": "user01@mail.com"},
+    { "id": 2, "username": "user02", "email": "user02@mail.com"},
+    { "id": 3, "username": "user03", "email": "user03@mail.com"},
+    { "id": 4, "username": "user04", "email": "user04@mail.com"}
   ],
   "profile": {
     "name": "riabchenko-qa"
